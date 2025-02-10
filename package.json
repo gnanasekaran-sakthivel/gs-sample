@@ -11,9 +11,11 @@
     "server": "cd server && npm start",
     "server:build": "cd server && npm run build",
     "server:dev": "cd server && npm run dev",
+    "server:start": "cd server && npm run start",
     "install": "cd server && npm i && cd ../client && npm i",
     "client:build": "cd client && npm run build",
     "client:dev": "cd client && npm run dev",
+    "client:start": "cd client && npm run start",
     "build": "npm run server:build && npm run client:build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build"
